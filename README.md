@@ -12,3 +12,5 @@
 	- `docker-compose up -d`
 - open chrome：
 	- `http://192.168.1.121:3000`
+默认的账户名: config.json =>  adminAccount 这个字段的值
+密码: ymfe.org
