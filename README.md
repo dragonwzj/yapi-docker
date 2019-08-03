@@ -2,15 +2,14 @@
 
 - env：
 	- Hardware requirements：`1 GB RAM minimum`
-	- work path：`mkdir -p /opt/git-data`
-	- ip：`http://192.168.1.121`
+	- ip：`http://localhost`
 - clone：
-	- `cd /opt/git-data && git clone https://github.com/branchzero/yapi-docker.git`
+	- `git clone https://github.com/branchzero/yapi-docker.git`
 - permission：
-	- `chmod -R 777 /opt/git-data`
+	- `chmod -R 777 ./yapi-docker`
 - run command：
-	- `docker-compose up -d`
+	- `cd yapi-docker && docker-compose up -d`
 - open chrome：
-	- `http://192.168.1.121:3000`
-默认的账户名: config.json =>  adminAccount 这个字段的值
-密码: ymfe.org
+	- `http://localhost:3000`
+- 默认的账户名: config.json =>  adminAccount 这个字段的值
+- 密码: ymfe.org
